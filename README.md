@@ -14,7 +14,7 @@ One of the initial challenges we encountered was related to remappings in the pr
 
 
 ## Deprecated Imports
-Another challenge was the deprecation of certain imports from the OpenZeppelin library. In particular, the import of `Counters.sol` had been deprecated. While a draft version was available, we chose not to use it to maintain the reliability of our code.
+Another challenge was the deprecation of certain imports from the OpenZeppelin library. In particular, the import of `Counters.sol` had been deprecated [(Deprecation Motivation)](https://github.com/OpenZeppelin/openzeppelin-contracts/issues/4233). While a draft version was available, we chose not to use it to maintain the reliability of our code.
 
 You can find the draft version here for reference: [Draft Counter.sol](https://github.com/utgarda/openzeppelin-solidity/blob/master/contracts/drafts/Counter.sol).
 
