@@ -5,7 +5,7 @@
 During the development of our smart contract project, we encountered various challenges and changes that are worth noting. This document aims to provide insights into the adversities faced and the solutions employed during the project.
 
 ## Changes in Remappings
-One of the initial challenges we encountered was related to remappings in the project. In previous versions of Foundry, remappings were typically configured in the foundry.toml file (such as we learnt on C2 in the [video](https://www.youtube.com/watch?v=fNMfMxGxeag&feature=youtu.be) as you can remember. However, we found that this process has changed. To adapt to the new approach:
+One of the initial challenges we encountered was related to remappings in the project. In previous versions of Foundry, remappings were typically configured in the foundry.toml file (such as we learnt on ME:C2 in the [video](https://www.youtube.com/watch?v=fNMfMxGxeag&feature=youtu.be) as you can remember). However, we found that this process has changed. To adapt to the new approach:
 
 1. Create or update a file named `remappings.txt` in your project root.
 2. Add the following line to `remappings.txt`:
